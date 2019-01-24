@@ -36,20 +36,24 @@ const btnDanger = btn("#e27c79", "#c9302c");
 
 export default styled.div`
   font-family: sans-serif;
+
   h1 {
     text-align: center;
     color: #222;
     margin-bottom: 0;
   }
+
   h2 {
     text-align: center;
     color: #222;
   }
+
   h3 {
     text-align: center;
     color: #666;
     margin: 0;
   }
+
   form {
     text-align: left;
     max-width: 500px;
@@ -59,6 +63,7 @@ export default styled.div`
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
     position: relative;
+
     & > div {
       display: flex;
       flex-flow: row nowrap;
@@ -126,6 +131,7 @@ export default styled.div`
       padding: 20px;
     }
   }
+
   button {
     margin: 10px auto;
     &[type="submit"] {
